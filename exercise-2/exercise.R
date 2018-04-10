@@ -61,3 +61,4 @@ average_loss <- mean(salaries$change[salaries$got_raise == FALSE])
 
 # Write a .csv file of your salary data to your working directory
 write.csv(salaries, 'salaries.csv')
+
